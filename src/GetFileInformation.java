@@ -1,7 +1,7 @@
 import java.io.File;
 public class GetFileInformation {
     public static void main(String[] args) {
-        File f = new File("C:\\Users\\Zaiyn\\Desktop\\Coding\\example2.txt");
+        File f = new File("Desktop\\Coding\\example2.txt");
         if(f.exists()) {
             System.out.println("File name: " + f.getName());
             System.out.println("Absolute path: " + f.getAbsolutePath());
